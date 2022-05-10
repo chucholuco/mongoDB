@@ -36,6 +36,7 @@ public class StudentService {
     }
 
     public List<Student> getAllStudents() {
+        System.out.println("Inside the method getAllStudents");
         return studentRepository.findAll();
     }
 
